@@ -1,5 +1,6 @@
 {
   "name": "raval",
+  "homepage": "https://kevhaes.github.io/strapi_raval",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,13 +8,16 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.10.7",
     "@strapi/plugin-users-permissions": "4.10.7",
     "@strapi/strapi": "4.10.7",
     "better-sqlite3": "8.0.1",
+    "gh-pages": "^5.0.0",
     "pg": "^8.11.0",
     "pg-connection-string": "^2.6.0"
   },

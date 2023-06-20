@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\config",
+    "\\config\\env",
+    "\\config\\env\\production",
     "\\database",
     "\\database\\migrations",
     "\\public",
     "\\public\\uploads"
   ],
-  "SelectedNode": "\\.env.example",
+  "SelectedNode": "\\config\\database.js",
   "PreviewInSolutionExplorer": false
 }

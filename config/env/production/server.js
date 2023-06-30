@@ -1,4 +1,4 @@
 module.exports = ({ env }) => ({
-  host: env('APP_HOST', 'kevhaes.github.io/strapi_raval'),
+  host: env('APP_HOST', 'https://strapi-raval.onrender.com/'),
   port: env.int('NODE_PORT', 1337),
 });

@@ -1,4 +1,6 @@
 module.exports = ({ env }) => ({
-  host: env('APP_HOST', 'strapi-raval.onrender.com'),
-  port: env.int('NODE_PORT', 1337),
+  url: env("RENDER_EXTERNAL_URL"),
+  dirs: {
+    public: "/data/public"
+  },
 });
